@@ -99,4 +99,14 @@ span:last-child {
     max-width: 75%;
     height: 75%;
   }
+  
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #btn-prev,
+  #btn-next {
+    width: 30px;
+  }
 }
