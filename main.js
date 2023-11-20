@@ -16,24 +16,24 @@ function activeDot(i) {
 let index = 0;
 
 function nextSlide() {
-  if (index === slides.length - 1) {
-    index = 0;
+  if (index !== slides.length - 1) {
+    index++;
     activeSlide(index);
     activeDot(index);
   } else {
-    index++;
+    index = 0;
     activeSlide(index);
     activeDot(index);
   }
 }
 
 function prevSlide() {
-  if (index === 0) {
-    index = slides.length - 1;
+  if (index !== 0) {
+    index--;
     activeSlide(index);
     activeDot(index);
   } else {
-    index--;
+    index = slides.length - 1;
     activeSlide(index);
     activeDot(index);
   }
