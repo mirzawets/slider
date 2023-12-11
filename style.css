@@ -30,6 +30,7 @@ h1 {
 .slider-wrapper {
   max-width: 800px;
   height: 500px;
+  margin-top: 50px;
   position: relative;
   box-shadow: 10px 10px 44px -10px rgba(0, 0, 0, 0.75);
 }
